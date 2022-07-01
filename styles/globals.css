@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background-color: black;
+    color: white;
+}
+.gradient-wrapper{
+    filter: blur(100px);
+    overflow: hidden;
+    z-index: -1;
+    position: fixed;
+}
+.gradient-sky{
+    background: radial-gradient(#0c4a6e, #000);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: calc(100% - 200px);
+    max-width: 100vh;
+}
+html{
+    overflow-x: hidden;
+}
