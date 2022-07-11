@@ -9,10 +9,11 @@ body{
     filter: blur(100px);
     overflow: hidden;
     z-index: -1;
+    top: 0;
     position: fixed;
 }
 .gradient-sky{
-    background: radial-gradient(#0c4a6e, #000);
+    background: radial-gradient(#075985, #000);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,6 +21,39 @@ body{
     height: calc(100% - 200px);
     max-width: 100vh;
 }
+
+.gradient-violet{
+    background: radial-gradient(#4c1d95, #000);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: calc(100% - 200px);
+    max-width: 100vh;
+}
+
 html{
     overflow-x: hidden;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888;
+    border-radius: 5px;
+  }

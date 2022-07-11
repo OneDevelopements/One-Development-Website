@@ -24,14 +24,14 @@ const solutions = [
         console.log(props.noLink)
         return(
             <>
-            <button className="m-0 mx-2 text-md hover:text-white/80 transition ease-in-out duration-100" onClick={()=> props.noLink && !props.offSite ? router.push(props.href) : window.location.href= props.href}>
+            <button className="m-0 mx-2 text-md hover:text-white/80 transition ease-in-out duration-100" onClick={()=> !props.noLink && router.push(props.href) }>
                 {props.children}
             </button>
             </>
         )
     }
     return(<>
-    <div className="w-screen p-5 flex items-center bg-black/50 backdrop-blur-xl fixed top-0">
+    <div className="w-screen p-5 flex items-center  fixed top-0">
         <button className="text-lg mx-3 font-semibold hover:text-sky-500 transition ease-in-out duration-500" onClick={()=> router.push('/')}>
             One Devs
         </button>
