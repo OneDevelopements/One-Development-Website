@@ -24,7 +24,7 @@ const Home = () => {
         <div style={{maxWidth: 'calc(100vw - 100px)'}} className='mt-4 flex items-center flex-wrap'>
           <Card image={'https://cdn.discordapp.com/avatars/729975591406796840/ce128e626fb36fa27d6ec053a546076a.webp'} title='Pop Plays#6473' bio={'Nice developer who founded somelist :P Don\'t really know what to do in life tbh. Peace, Fun, and Laughter. Also #React!'}/>
           <Card image='https://cdn.discordapp.com/avatars/571811686617710592/8d6a5f9894aa01b9f9c4cfd43c0ee366.webp' title='KingCh1ll#3616' bio={'Hi, I\'m KingCh1ll [he/him]! I\'m a passionate NodeJS Software Engineer, living in the United States.'}/>
-          <Card title=' PixPurple#6306' bio='Hi im Tj Owner and CEO of cursedbots.xyz\n Im a HTML based Software Developer based in the United States' image='https://cdn.discordapp.com/avatars/739926876834889789/c5c73a443ad8d84dcbf7051088ae22f8.webp'/>
+          <Card title=' PixPurple#6306' bio='Hi im Tj Owner and CEO of cursedbots.xyz. Im a HTML based Software Developer based in the United States' image='https://cdn.discordapp.com/avatars/739926876834889789/c5c73a443ad8d84dcbf7051088ae22f8.webp'/>
         </div>
       </div>
     </AnimatePresence>
